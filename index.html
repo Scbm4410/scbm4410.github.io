@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portfolio de diseño gráfico">
+  <title>Portfolio — Silvia Buceta Martín</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <span class="brand">PORTFOLIO</span>
+      <span class="hint">Silvia Buceta Martín</span>
+      <button id="fullscreen" class="icon-btn" aria-label="Pantalla completa" title="Pantalla completa">⛶</button>
+    </header>
+
+    <section class="viewer-area" aria-label="Visor del portfolio">
+      <button id="prev" class="nav-arrow" aria-label="Página anterior">‹</button>
+      <div id="viewport">
+        <div id="page-stage">
+          <div id="under-page" class="page"></div>
+          <div id="turn-sheet" class="page turn-sheet">
+            <div id="front-face" class="face front-face"></div>
+            <div id="back-face" class="face back-face"></div>
+          </div>
+          <div id="media-layer"></div>
+        </div>
+      </div>
+      <button id="next" class="nav-arrow" aria-label="Página siguiente">›</button>
+    </section>
+
+    <footer class="controls">
+      <button id="zoom-out" class="control-btn" aria-label="Alejar">−</button>
+      <button id="zoom-reset" class="control-btn zoom-value" title="Restablecer zoom">100%</button>
+      <button id="zoom-in" class="control-btn" aria-label="Acercar">+</button>
+      <span class="separator"></span>
+      <span id="page-count">1 / 27</span>
+      <input id="page-range" type="range" min="1" max="27" value="1" aria-label="Ir a una página">
+    </footer>
+    <p class="mobile-note">Desliza hacia la izquierda o la derecha para pasar de página.</p>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="close-lightbox" class="close-lightbox" aria-label="Cerrar">×</button>
+    <button id="gallery-prev" class="gallery-arrow" aria-label="Foto anterior">‹</button>
+    <img id="lightbox-image" alt="">
+    <button id="gallery-next" class="gallery-arrow" aria-label="Foto siguiente">›</button>
+    <span id="gallery-count"></span>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="media.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>
