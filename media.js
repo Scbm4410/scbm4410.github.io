@@ -10,7 +10,7 @@
 */
 window.PORTFOLIO_MEDIA = [
 
-  { id:"pag_fanzine", page:7, type:"gallery",
+  /*{ id:"pag_fanzine", page:7, type:"gallery",
   images:[
     "media/galerias/fanzine/FANZINE_page-0001.jpg",
     "media/galerias/fanzine/FANZINE_page-0002.jpg",
@@ -28,11 +28,11 @@ window.PORTFOLIO_MEDIA = [
     "media/galerias/fanzine/FANZINE_page-0014.jpg",
     "media/galerias/fanzine/FANZINE_page-0015.jpg",
   ],
-  x:66.8, y:46, w:21.5, h:41 },
+  x:66.8, y:46, w:21.5, h:41 },*/
+  
   // PÁGINAS CON ESPACIOS MULTIMEDIA DEL PDF:
   // 7: recuadro grande de la página del fanzine.
-  { id:"fanzine", page:8, type:"gif", src:"scbm4410.github.io/media/gifs
-/Fanzine.gif", x:33.4, y:41.5, w:42.5, h:43.5 },
+  { id:"fanzine", page:8, type:"gif", src:"media/gifs/Fanzine.gif", x:33.4, y:41.5, w:42.5, h:43.5 },
 
   // 8: página prácticamente en blanco; espacio para pieza a página completa.
   { id:"editorial-extra", page:8, type:"empty", x:2, y:7, w:96, h:87 },
