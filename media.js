@@ -10,7 +10,7 @@
 */
 window.PORTFOLIO_MEDIA = [
 
-  { id:"fanzine", page:7, type:"none", src:"none", x:33.4, y:41.5, w:42.5, h:43.5 },
+  { id:"paginas_fanzine", page:7, type:"jpg", src:"none", x:33.4, y:41.5, w:42.5, h:43.5 },
   // PÁGINAS CON ESPACIOS MULTIMEDIA DEL PDF:
   // 7: recuadro grande de la página del fanzine.
   { id:"fanzine", page:7, type:"gif", src:"scbm4410.github.io/media/gifs
