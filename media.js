@@ -35,7 +35,7 @@ window.PORTFOLIO_MEDIA = [
   { id:"editorial-extra", page:8, type:"gif", src:"media/gifs/Fanzine.gif", x:2, y:7, w:96, h:87 },
 
   // 20: página prácticamente en blanco; espacio para pieza a página completa.
-  { id:"motion-principal", page:20, type:"video", src:"https://youtu.be/vj8jQheeSgc", x:2, y:7, w:96, h:87 },
+  { id:"video-youtube", page:20, type:"youtube", src:"https://youtu.be/vj8jQheeSgc", x:2, y:7, w:96, h:87 },
 
   // 21: recuadro de vídeo/animación junto al texto "Cortinillas de televisión".
   { id:"cortinillas", page:21, type:"empty", x:67.2, y:42.0, w:21.4, h:40.5 },
