@@ -10,10 +10,28 @@
 */
 window.PORTFOLIO_MEDIA = [
 
-  { id:"paginas_fanzine", page:7, type:"jpg", src:"none", x:33.4, y:41.5, w:42.5, h:43.5 },
+  { id:"pag_fanzine", page:7, type:"gallery",
+  images:[
+    "media/galerias/fanzine/FANZINE_page-0001.jpg",
+    "media/galerias/fanzine/FANZINE_page-0002.jpg",
+    "media/galerias/fanzine/FANZINE_page-0003.jpg",
+    "media/galerias/fanzine/FANZINE_page-0004.jpg",
+    "media/galerias/fanzine/FANZINE_page-0005.jpg",
+    "media/galerias/fanzine/FANZINE_page-0006.jpg",
+    "media/galerias/fanzine/FANZINE_page-0007.jpg",
+    "media/galerias/fanzine/FANZINE_page-0008.jpg",
+    "media/galerias/fanzine/FANZINE_page-0009.jpg",
+    "media/galerias/fanzine/FANZINE_page-0010.jpg",
+    "media/galerias/fanzine/FANZINE_page-0011.jpg",
+    "media/galerias/fanzine/FANZINE_page-0012.jpg",
+    "media/galerias/fanzine/FANZINE_page-0013.jpg",
+    "media/galerias/fanzine/FANZINE_page-0014.jpg",
+    "media/galerias/fanzine/FANZINE_page-0015.jpg",
+  ],
+  x:66.8, y:46, w:21.5, h:41 },
   // PÁGINAS CON ESPACIOS MULTIMEDIA DEL PDF:
   // 7: recuadro grande de la página del fanzine.
-  { id:"fanzine", page:7, type:"gif", src:"scbm4410.github.io/media/gifs
+  { id:"fanzine", page:8, type:"gif", src:"scbm4410.github.io/media/gifs
 /Fanzine.gif", x:33.4, y:41.5, w:42.5, h:43.5 },
 
   // 8: página prácticamente en blanco; espacio para pieza a página completa.
