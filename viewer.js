@@ -74,8 +74,46 @@
       }else if(s.type==="gif"){
         const img=document.createElement("img");img.src=s.src;img.alt=s.alt||"Animación";box.appendChild(img);
       }else if(s.type==="video"){
-        const v=document.createElement("video");v.src=s.src;v.controls=true;v.playsInline=true;v.preload="metadata";
-        if(s.poster)v.poster=s.poster;box.appendChild(v);
+  const v=document.createElement("video");
+  v.src=s.src;
+  v.controls=true;
+  v.playsInline=true;
+  v.preload="metadata";
+  if(s.poster)v.poster=s.poster;
+  box.appendChild(v);
+
+}else if(s.type==="youtube"){
+  let videoId="";
+
+  try{
+    const url=new URL(s.src);
+
+    if(url.hostname.includes("youtu.be")){
+      videoId=url.pathname.slice(1).split("/")[0];
+    }else if(url.searchParams.has("v")){
+      videoId=url.searchParams.get("v");
+    }else{
+      const parts=url.pathname.split("/").filter(Boolean);
+      videoId=parts[parts.length-1]||"";
+    }
+  }catch(e){
+    videoId=s.src;
+  }
+
+  const iframe=document.createElement("iframe");
+  iframe.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(videoId);
+  iframe.title=s.title||"Vídeo de YouTube";
+  iframe.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+  iframe.allowFullscreen=true;
+  iframe.loading="lazy";
+  iframe.referrerPolicy="strict-origin-when-cross-origin";
+  iframe.style.width="100%";
+  iframe.style.height="100%";
+  iframe.style.border="0";
+
+  box.appendChild(iframe);
+}
+      
       }else if(s.type==="gallery"){
         const b=document.createElement("button");b.className="gallery-trigger";
         const img=document.createElement("img");img.src=(s.images||[])[0]||"";img.alt="Abrir galería";
