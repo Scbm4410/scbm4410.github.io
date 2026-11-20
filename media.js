@@ -38,7 +38,14 @@ window.PORTFOLIO_MEDIA = [
   { id:"video-youtube", page:20, type:"youtube", src:"https://youtu.be/vj8jQheeSgc", x:2, y:7, w:96, h:87 },
 
   // 21: recuadro de vídeo/animación junto al texto "Cortinillas de televisión".
-  { id:"cortinillas", page:21, type:"empty", x:67.2, y:42.0, w:21.4, h:40.5 },
+  { id:"cortinillas", page:21, type:"gallery",
+   images:[
+    "media/galerias/cortinillas/aaaaaaaaa_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/Cortinilla1_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/Cortinilla2_V2_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/aaaaaaaa_0000s_0000_Layer 1.jpg"
+  ],
+  x:67.2, y:42.0, w:21.4, h:40.5 },
 
   // 22: dos recuadros multimedia.
   { id:"motion-izquierda", page:22, type:"empty", x:13.0, y:42.5, w:35.3, h:39.0 },
