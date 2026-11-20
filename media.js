@@ -27,7 +27,7 @@
 window.PORTFOLIO_MEDIA = [
   // PÁGINAS CON ESPACIOS MULTIMEDIA DEL PDF:
   // 7: recuadro grande de la página del fanzine.
-  { id:"personajes", page:24, type:"gallery",
+  { id:"pag_fanzine", page:24, type:"gallery",
   images:[
     "media/galerias/fanzine/FANZINE_page-0001.jpg",
     "media/galerias/fanzine/FANZINE_page-0002.jpg",
