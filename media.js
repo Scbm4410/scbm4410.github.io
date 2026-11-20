@@ -48,13 +48,36 @@ window.PORTFOLIO_MEDIA = [
   x:67.2, y:42.0, w:21.4, h:40.5 },
 
   // 22: dos recuadros multimedia.
-  { id:"motion-izquierda", page:22, type:"empty", x:13.0, y:42.5, w:35.3, h:39.0 },
-  { id:"motion-derecha", page:22, type:"empty", x:53.0, y:42.5, w:35.2, h:39.0 },
+  { id:"motion-izquierda", page:22, type:"gif", src:"", x:13.0, y:42.5, w:35.3, h:39.0 },
+  { id:"motion-derecha", page:22, type:"gif", x:53.0, y:42.5, w:35.2, h:39.0 },
 
   // 24, 25 y 26: recuadros de ilustración.
-  { id:"personajes", page:24, type:"empty", x:66.8, y:46.0, w:21.5, h:41.0 },
-  { id:"experimentacion", page:25, type:"empty", x:66.8, y:48.0, w:21.5, h:40.0 },
-  { id:"bocetos", page:26, type:"empty", x:66.8, y:46.5, w:21.5, h:41.0 }
+  { id:"personajes", page:24, type:"gallery",
+   images:[
+    "media/galerias/cortinillas/aaaaaaaaa_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/Cortinilla1_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/Cortinilla2_V2_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/aaaaaaaa_0000s_0000_Layer 1.jpg",
+   ],
+   x:66.8, y:46.0, w:21.5, h:41.0 },
+  
+  { id:"experimentacion", page:25, type:"gallery", 
+   images:[
+    "media/galerias/cortinillas/aaaaaaaaa_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/Cortinilla1_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/Cortinilla2_V2_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/aaaaaaaa_0000s_0000_Layer 1.jpg",
+   ],
+   x:66.8, y:48.0, w:21.5, h:40.0 },
+  
+  { id:"bocetos", page:26, type:"gallery",
+   images:[
+    "media/galerias/cortinillas/aaaaaaaaa_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/Cortinilla1_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/Cortinilla2_V2_0000s_0000_Layer 1.jpg",
+    "media/galerias/cortinillas/aaaaaaaa_0000s_0000_Layer 1.jpg",
+   ],
+   x:66.8, y:46.5, w:21.5, h:41.0 }
 
   /*
   EJEMPLOS: cuando quieras añadir un archivo, sustituye una entrada
