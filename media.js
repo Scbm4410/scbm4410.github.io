@@ -11,10 +11,10 @@
 window.PORTFOLIO_MEDIA = [
   // PÁGINAS CON ESPACIOS MULTIMEDIA DEL PDF:
   // 7: recuadro grande de la página del fanzine.
-  { id:"fanzine", page:7, type:"empty", x:33.4, y:41.5, w:42.5, h:43.5 },
+  { id:"pag_fanzine", page:7, type:"empty", x:33.4, y:41.5, w:42.5, h:43.5 },
 
   // 8: página prácticamente en blanco; espacio para pieza a página completa.
-  { id:"editorial-extra", page:8, type:"empty", x:2, y:7, w:96, h:87 },
+  { id:"fanzine", page:8, type:"gif", src:"media/gifs/Fanzine.gif", x:2, y:7, w:96, h:87 },
 
   // 20: página prácticamente en blanco; espacio para pieza a página completa.
   { id:"motion-principal", page:20, type:"empty", x:2, y:7, w:96, h:87 },
