@@ -89,7 +89,7 @@
   try{
     const url=new URL(s.src);
 
-    if(url.hostname.includes("youtu.be"){
+    if(url.hostname.includes("youtu.be")){
       videoId=url.pathname.slice(1).split("/")[0];
     }else if(url.searchParams.has("v")){
       videoId=url.searchParams.get("v");
