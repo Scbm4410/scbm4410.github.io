@@ -29,7 +29,7 @@ window.PORTFOLIO_MEDIA = [
     "media/galerias/fanzine/FANZINE_page-0014.jpg",
     "media/galerias/fanzine/FANZINE_page-0015.jpg"
   ], 
-  x:34, y:49, w:32, h:37 },
+  x:34, y:42, w:32, h:37 },
 
   // 8: página prácticamente en blanco; espacio para pieza a página completa.
   { id:"editorial-extra", page:8, type:"gif", src:"media/gifs/Fanzine.gif", x:2, y:7, w:96, h:87 },
@@ -65,7 +65,7 @@ window.PORTFOLIO_MEDIA = [
     "media/galerias/ilustraciones/LuzLloyl.jpg",
     "media/galerias/ilustraciones/LuzLloyl2.jpg",
    ],
-   x:66.8, y:46.0, w:21.5, h:41.0 },
+   x:66.8, y:46.0, w:32, h:37 },
   
   { id:"experimentacion", page:25, type:"gallery", 
    images:[
