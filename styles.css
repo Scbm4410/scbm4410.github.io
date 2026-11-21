@@ -57,12 +57,5 @@ body{overflow:hidden}
  #page-range{width:22vw}
  .mobile-note{display:block;margin:0 0 6px;font-size:10px;opacity:.45}
  .lightbox{padding:40px 8px}.gallery-arrow{font-size:32px;padding:8px}
-.credits {
-  text-align: center;
-  font-size: 4px;
-  line-height: 1.5;
-  color: #ffffff80;
-  padding: 10px 10px;
-  flex-shrink: 0;
-}
+.credits {text-align: center;font-size: 4px;line-height: 1.5;color: #ffffff80;padding: 10px 10px;flex-shrink: 1; height:100dvh;display:flex;flex-direction:column;align-items:center}
 }
