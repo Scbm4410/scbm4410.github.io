@@ -45,7 +45,7 @@ window.PORTFOLIO_MEDIA = [
     "media/galerias/cortinillas/Cortinilla2_V2_0000s_0000_Layer 1.jpg",
     "media/galerias/cortinillas/aaaaaaaa_0000s_0000_Layer 1.jpg"
   ],
-  x:52, y:47, w:27, h:31 },
+  x:51, y:47, w:27, h:31 },
 
   // 22: dos recuadros multimedia.
   { id:"motion-izquierda", page:22, type:"gif", src:"media/gifs/Cortinilla1.gif", x:13.0, y:42.5, w:35.3, h:39.0 },
