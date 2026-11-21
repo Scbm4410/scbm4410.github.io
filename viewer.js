@@ -26,9 +26,10 @@
       const canvas=document.createElement("canvas");
       canvas.width=Math.ceil(vp.width); canvas.height=Math.ceil(vp.height);
       await page.render({canvasContext:canvas.getContext("2d"),viewport:vp}).promise;
-      pages.push(canvas);
+      pages.push(canvas); document.getElementById("loading-progress").textContent =
+  		Math.round((n / pdf.numPages) * 100) + "%";
     }
-    setPage(1);
+    setPage(1); document.getElementById("loader").style.display = "none";
   }
   function pageHTML(n){
     const c=pages[n-1];
