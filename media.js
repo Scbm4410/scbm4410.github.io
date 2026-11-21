@@ -29,7 +29,7 @@ window.PORTFOLIO_MEDIA = [
     "media/galerias/fanzine/FANZINE_page-0014.jpg",
     "media/galerias/fanzine/FANZINE_page-0015.jpg"
   ], 
-  x:33.39, y:49.25, w:32.00, h:37.00 },
+  x:33.39, y:49.25, w:32.0, h:37.0 },
 
   // 8: página prácticamente en blanco; espacio para pieza a página completa.
   { id:"editorial-extra", page:8, type:"gif", src:"media/gifs/Fanzine.gif", x:2, y:7, w:96, h:87 },
@@ -45,7 +45,7 @@ window.PORTFOLIO_MEDIA = [
     "media/galerias/cortinillas/Cortinilla2_V2_0000s_0000_Layer 1.jpg",
     "media/galerias/cortinillas/aaaaaaaa_0000s_0000_Layer 1.jpg"
   ],
-  x:67.2, y:42.0, w:21.4, h:40.5 },
+  x:52.85, y:47.62, w:32.76, h:36.97 },
 
   // 22: dos recuadros multimedia.
   { id:"motion-izquierda", page:22, type:"gif", src:"media/gifs/Cortinilla1.gif", x:13.0, y:42.5, w:35.3, h:39.0 },
